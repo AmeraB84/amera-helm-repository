@@ -3,7 +3,7 @@ entries:
   my-service:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-01-29T16:26:57.4930545+01:00"
+    created: "2026-01-29T16:37:03.2273043+01:00"
     dependencies:
     - name: service-lib
       repository: file://../service-lib
@@ -15,4 +15,14 @@ entries:
     urls:
     - my-service-0.1.0.tgz
     version: 0.1.0
-generated: "2026-01-29T16:26:57.4920295+01:00"
+  service-lib:
+  - apiVersion: v2
+    created: "2026-01-29T16:37:03.228886+01:00"
+    description: A library with shared templates
+    digest: 07fcc45eaabca17f7d90b81da34f989798fe3facadf7c5540558a84ea54bcee0
+    name: service-lib
+    type: library
+    urls:
+    - service-lib-0.1.0.tgz
+    version: 0.1.0
+generated: "2026-01-29T16:37:03.2257752+01:00"
